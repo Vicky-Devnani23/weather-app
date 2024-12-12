@@ -1,0 +1,21 @@
+.Bg{
+  background-image: url("bg.jpg");
+  background-size: cover;
+}
+.yy{
+  text-decoration: underline;
+}
+#primary,#primary-2,#primary-3 {
+  animation: transform 5s ease-in-out infinite;
+}
+
+@keyframes transform {
+  0% {
+   
+      transform: rotate3d(1, 1, 0, 0deg); /* Rotate 45 degrees around Z-axis */
+        
+  }
+  100% {
+    transform: rotate3d(1, 1, 0, 360deg);
+  }
+}
